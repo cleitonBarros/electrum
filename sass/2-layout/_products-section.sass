@@ -4,15 +4,26 @@
 .products-grid 
     @include layout-mixin.center-content 
     flex-direction: column
+    
     padding: 2rem 0
 
     h2
         font-size: 2rem
         text-transform: uppercase
+
+        @include base-mixin.mobile
+            text-align: center
     
     &-container
         display: flex
         justify-content: space-between
+        align-items: center !important
         padding: 2rem 0
+      
+
+        @include base-mixin.mobile
+            flex-direction: column
+            
+
 
     
