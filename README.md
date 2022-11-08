@@ -5,13 +5,7 @@
 
 
 <h1 align="center">
-  <img  src="./assets/screenshotFull.png" width="1024px" height="2200px"/>
-</h1>
-
-
-## 📱 Mobile 
-<h1 align="center">
-  <img  src="./assets/mobile_menu.png" width="450px" height="650px"/>
+  <img  src="./assets/web.png" width="1024px" height="2200px"/>
 </h1>
 
 
