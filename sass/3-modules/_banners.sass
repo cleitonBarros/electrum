@@ -20,11 +20,14 @@
     
     &-cover
         background-color: variables.$primary-color
-        width: 70%
+        max-width: 70%
         height: 100%
         opacity:  .8
         border-bottom-right-radius: 6rem
-    
+
+        @include base-mixin.tablet
+             max-width: 90%
+        
     &-content
         position: absolute
         top: 0
@@ -33,6 +36,12 @@
 
         h2
             font-size: 2.1rem
+            margin-bottom: 1rem
+            max-width: 70%
+
+            @include base-mixin.tablet
+            font-size: 1.2rem
+            margin-top: 1rem
             margin-bottom: 1rem
             max-width: 70%
 

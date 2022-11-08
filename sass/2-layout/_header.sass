@@ -8,12 +8,19 @@
         background-color: variables.$secondary-bg-color
         color: variables.$light-color
 
+        
+        @include base-mixin.tablet
+        padding: 0 2rem
+
         @include base-mixin.mobile
             display: none
 
+        
         &-container
             @include layout-mixin.center-content
             padding: 0.8rem 0
+
+            
 
             span
                 margin-right: 1rem
@@ -25,6 +32,8 @@
                 color: variables.$light-color
 
 .main-header 
+    @include base-mixin.tablet
+        padding: 0 2rem
 
     &-container
         @include layout-mixin.center-content
@@ -79,6 +88,9 @@
     background-color: variables.$light-color
     border-bottom: 2px solid variables.$section-bg-color
     border-top: 3px solid variables.$primary-color
+
+    @include base-mixin.tablet
+        padding: 0 2rem
 
     ul
         @include  layout-mixin.center-content

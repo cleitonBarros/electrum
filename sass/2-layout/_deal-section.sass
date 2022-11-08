@@ -9,9 +9,16 @@
     background-position-x: 95%
     background-position-y: 2rem
     background-size: 25%
-    background-color: variables.$section-bg-color
+    background-color: #333
     height: 400px
     padding: 2rem
+
+    
+    @include base-mixin.tablet
+        background-size: 70%
+        background-position-y: 120%
+        background-position-x: 130%
+        height: 700px
 
     @include base-mixin.mobile
         background-size: 70%
@@ -48,12 +55,13 @@
             justify-content: center
             background-color: variables.$primary-color
             color: variables.$link-color
-            margin: 0 1rem
+            margin: 1rem
 
             @include base-mixin.mobile
                 margin-bottom: 1.5rem
 
             &-time
+                
                 font-size: 1.2rem
                 font-weight: bold
 
@@ -61,7 +69,13 @@
             margin-bottom: 2rem
             font-size: 1.5rem
             text-transform: uppercase
+            color: white
 
         &-subtitle
             margin-bottom: 2rem
             font-size: 1.5rem
+
+            @include base-mixin.tablet
+                background: variables.$primary-color
+                border-radius: 50px 
+                padding: 5px

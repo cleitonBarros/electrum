@@ -1,3 +1,10 @@
 @mixin mobile
- @media(max-width: 500px)
-    @content
+   @media(max-width: 550px)
+      @content
+
+   @media (min-width: 551px) and (max-width: 815px)
+      @content
+
+@mixin tablet   
+   @media (min-width: 815px) and (max-width: 1090px)
+      @content
