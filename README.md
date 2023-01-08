@@ -23,4 +23,4 @@ Electrum uma aplicação desenvolvida no curso de SASS, afim de estudar SASS/SCS
                                                                    
 
 ## 🔖 Layout
-Você pode visualizar o projeto  através [desse link](https://vercel.com/cleitonbarros/electrum).
+Você pode visualizar o projeto  através [desse link](https://electrum-ten.vercel.app/).
